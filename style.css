@@ -1,0 +1,89 @@
+*{
+    background: #f3f5fc;
+    font-family: Anta;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10;
+    width: 5%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.textArea{
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-emphasis: lowercase
+}
+::placeholder{color: #0a3871}
+.textArea:focus{
+    outline: none;
+}
+.botones{
+    display: flex; 
+    margin-top: 18px;
+}
+.botones>button#botonEncriptar{    
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: Fixed (328px);
+    gap: 8px;
+    
+
+}
+.botones>button#botonDesencriptar{    
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: Fixed (328px);
+    gap: 8px;
+
+}
+.botones>button#botonCopiar{
+    background-color: #f6ff00;
+    border: 1px solid #f6ff00;
+    border-radius: 24px;
+    color: #000000;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: Fixed (328px);
+    gap: 8px;
+    position: absolute;
+}
+.areaResultado{
+    background-color: #FFFFFF;
+    background-image: url("Imagenes/Buscar.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.mensaje:focus{
+    outline: none;
+}
+.info{
+    color: #495057;
+    font-size: 19px;
+}
