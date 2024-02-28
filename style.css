@@ -19,7 +19,7 @@ main{
 .textArea{
     border: none;
     color: #0a3871;
-    margin-top: 90px;
+    margin-top: 20px;
     text-emphasis: lowercase
 }
 ::placeholder{color: #0a3871}
@@ -28,7 +28,6 @@ main{
 }
 .botones{
     display: flex; 
-    margin-top: 18px;
 }
 .botones>button#botonEncriptar{    
     background-color: #0A3871;
@@ -38,8 +37,7 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
-    width: Fixed (328px);
-    gap: 8px;
+  
     
 
 }
@@ -51,8 +49,7 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
-    width: Fixed (328px);
-    gap: 8px;
+ 
 
 }
 .botones>button#botonCopiar{
@@ -62,17 +59,17 @@ main{
     color: #000000;
     cursor: pointer;
     height: 67px;
-    margin-left: 30px;
-    width: Fixed (328px);
-    gap: 8px;
+    margin-left: 258px;
+    margin-top: 10px;
     position: absolute;
+    
 }
 .areaResultado{
     background-color: #FFFFFF;
     background-image: url("Imagenes/Buscar.png");
     background-repeat: no-repeat;
-    background-size: 90%;
-    background-position: center;
+    background-size: 100%;
+    background-position: top;
     border: none;
     border-radius: 24px;
     color: #0a3871;
@@ -86,4 +83,18 @@ main{
 .info{
     color: #495057;
     font-size: 19px;
+}
+.subtitulo{
+    background-color: #FFFFFF;
+    height: 58px;
+    font-family: Anta;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 100px;
+    position: relative;
+    margin-top: -74px;
+
 }
