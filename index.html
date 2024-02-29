@@ -23,15 +23,15 @@
                 <h6 class ="info">Solo letras minusculas y sin acentos</h6>
             </div>
             <div class = "botones">
-                <button id="botonEncriptar" Color = "darkblue" State = "Normal";>Encriptar</button>
-                <button id="botonDesencriptar">Desencriptar</button>
+                <button id="botonEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button id="botonDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
         <section>
-                <textarea class="areaResultado" cols="20" rows ="11" id = "textoDesencriptado"></textarea>
+                <textarea class="areaResultado" cols="20" rows ="11" id = "textoDesencriptado" readonly></textarea>
                 <h6 class ="subtitulo">Ningún mensaje fue encontrado</h6>
             <div class = "botones">
-                <button id="botonCopiar">Copiar</button>
+                <button id="botonCopiar" onclick="btnCopiar()">Copiar</button>
             </div>
         </section>
     </main>
